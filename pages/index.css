@@ -50,6 +50,9 @@
   font-size: 16px;
   line-height: 20px;
 }
+.header__content{
+  display: flex;  
+}
 
 .header__title {
   max-width: 709px;
