@@ -108,7 +108,8 @@
   color: #838383;
 }
 .span-adress {
-  margin-right: 100px;
+  display: flex;
+  margin-right: 0;
 }
 .recipes {
   display: flex;
