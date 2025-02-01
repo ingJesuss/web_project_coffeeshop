@@ -50,10 +50,6 @@
   font-size: 16px;
   line-height: 20px;
 }
-.header__content{
-  display: flex;  
-}
-
 .header__title {
   max-width: 709px;
   margin-left: 80px;
@@ -94,15 +90,16 @@
   top: 124px;
   right: 5px;
   left: auto;  
-  border: 1px solid red;
+ 
 }
 .header__footer {
   margin-top: auto;
   margin-left: 80px;
+  margin-right: 80px;
   margin-bottom: 40px;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid red;
+  display: flex;  
+  justify-content: space-between;
+ 
 }
 
 .header__paragraph {
@@ -115,6 +112,11 @@
   font-size: 16px;
   line-height: 20px;
   color: #838383;
+}
+.header__adress{
+  display: flex;
+  align-items:flex-end;
+  
 }
 .span-adress {
   display: flex;
