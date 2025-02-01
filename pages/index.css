@@ -49,11 +49,6 @@
   line-height: 20px;
 }
 
-.header__content {
-  display: flex;
-  justify-content: space-between;
-}
-
 .header__title {
   max-width: 709px;
   margin-left: 80px;
@@ -113,7 +108,7 @@
   color: #838383;
 }
 .span-adress {
-  margin-right: 80px;
+  margin-right: 100px;
 }
 .recipes {
   display: flex;
