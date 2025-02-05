@@ -89,17 +89,15 @@
   position: absolute;
   top: 124px;
   right: 5px;
-  left: auto;  
- 
+  left: auto;
 }
 .header__footer {
   margin-top: auto;
   margin-left: 80px;
   margin-right: 80px;
   margin-bottom: 40px;
-  display: flex;  
+  display: flex;
   justify-content: space-between;
- 
 }
 
 .header__paragraph {
@@ -113,10 +111,9 @@
   line-height: 20px;
   color: #838383;
 }
-.header__adress{
+.header__adress {
   display: flex;
-  align-items:flex-end;
-  
+  align-items: flex-end;
 }
 .span-adress {
   display: flex;
@@ -181,4 +178,85 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
+}
+/* estilos para formulario */
+
+.reservation__form {
+  background-image: url(../images/background_reservation.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d9e7ff;
+  box-sizing: border-box;
+  width: 100%;
+}
+.reservation__title {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 80px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.form__fieldset {
+  display: flex;
+  flex-direction: column;
+  max-width: 385px;
+  margin: auto;
+  border: none;
+  margin-bottom: 120px;
+}
+.form__label {
+  margin-bottom: 8px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.form__label_center {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  column-gap: 12px;
+}
+
+input.form__input {
+  border-radius: 4px;
+  height: 60px;
+  margin-bottom: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.form__input::placeholder {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.form__button {
+  max-width: 385px;
+  height: 60px;
+  margin: 32px 0;
+  border-radius: 4px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #2f80ed;
+  color: #fff;
+}
+.form__button:hover {
+  opacity: 0.7;
+}
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+  margin: 0;
 }
