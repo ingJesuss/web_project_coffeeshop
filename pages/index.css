@@ -180,8 +180,7 @@
   line-height: 30px;
 }
 /* estilos para formulario */
-
-.reservation__form {
+.reservation{
   background-image: url(../images/background_reservation.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -189,11 +188,17 @@
   background-color: #d9e7ff;
   box-sizing: border-box;
   width: 100%;
+  border: 1px solid ;
 }
+.reservation__form {
+  margin-top: 100px;
+margin-bottom: 120px;
+}
+
 .reservation__title {
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin: 0; 
+  margin-bottom: 80px; 
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -203,10 +208,10 @@
 .form__fieldset {
   display: flex;
   flex-direction: column;
-  max-width: 385px;
-  margin: auto;
-  border: none;
+  max-width: 385px;  
   margin-bottom: 120px;
+  margin: auto;
+  border: none; 
 }
 .form__label {
   margin-bottom: 8px;
