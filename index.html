@@ -19,11 +19,11 @@
       content="recetas,coffe,time,triple peaks,reservación"
     />
     <meta name="author" content="Jesús Hernández López" />
-    <link rel="shortcut icon" href="./favicon.ico.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./pages/index.css" />
   </head>
   <body>
+    <!-- inicio -->
     <div class="page">
       <header class="header">
         <nav class="nav">
@@ -75,6 +75,7 @@
         </div>
       </header>
       <!-- main content -->
+      
       <main class="content">
         <!-- recipes section -->
         <section class="recipes" id="recipes">
@@ -118,10 +119,10 @@
 
         <!-- reservation section -->
         <section class="reservation" id="reservation">
-          <form class=" form reservation__form">
-            <fieldset class="reservation__form-fieldset">
-              <h2 class="reservation__title">Reservar una mesa</h2>
-              <label for="nombre" class="reservation__form-label">Nombre*</label>
+          <h2 class="reservation__title">Reservar una mesa</h2>
+          <form class="form reservation__form">
+            <fieldset class="form__fieldset">
+              <label for="nombre" class="form__label">Nombre*</label>
               <input
                 type="text"
                 class="form__input"
@@ -130,7 +131,7 @@
                 placeholder="Nombre"
                 required
               />
-              <label for="customer-number" class="reservation__form-label"
+              <label for="customer-number" class="form__label"
                 >Número de comensales*</label
               >
               <input
@@ -143,7 +144,7 @@
                 required
                 value="1"
               />
-              <label for="date-time" class="reservation__form-label">Fecha y hora *</label>
+              <label for="date-time" class="form__label">Fecha y hora *</label>
               <input
                 type="datetime-local"
                 class="form__input"
@@ -151,7 +152,7 @@
                 id="date-time"
                 required
               />
-              <label for="email" class="reservation__form-label"
+              <label for="email" class="form__label"
                 >Tu correo electronico *</label
               >
               <input
@@ -162,10 +163,10 @@
                 placeholder="email@email.com"
                 required
               />
-              <button type="submit" class="reservation__form-button">
+              <button type="submit" class="form__button">
                 Reservar una mesa
               </button>
-              <label for="center-text" class="reservation__form-label reservation__form-label_center">
+              <label for="center-text" class="form__label form__label-center">
                 <input
                   type="checkbox"
                   class="form__input"
@@ -178,8 +179,43 @@
           </form>
         </section>
       </main>
+
       <!-- footer -->
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="logo  triple espresso"
+            class="footer__logo"
+          />
+          <div class="footer__circle"></div>
+          <!-- Redes Sociales -->
+          <div class="footer__social">
+            <h4 class="footer__social-heading">Redes Sociales</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link"
+                  ><img
+                    src="./images/facebook_white.svg"
+                    alt="icono de facebook"
+                    class="footer__social-icon"
+                  />Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__social-link"
+                  ><img
+                    src="./images/instagram_white.svg"
+                    alt="icono de instagram"
+                    class="footer__social-icon"
+                  />instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2025 Jesús Hernández López</p>
+      </footer>
     </div>
   </body>
 </html>
