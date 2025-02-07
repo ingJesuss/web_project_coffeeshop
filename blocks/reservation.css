@@ -1,23 +1,22 @@
 .reservation {
-    background-image: url(../images/background_reservation.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: #d9e7ff;
-    box-sizing: border-box;
-    width: 100%;
-    border: 1px solid;    
-  }
-  
-  .reservation__title {
-    text-align: center;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 80px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 44px;
-    line-height: 52px;  
-  }
+  background-image: url(../images/background_reservation.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d9e7ff;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid;
+}
+
+.reservation__title {
+  text-align: center;
+  margin: 0;
+  padding-top: 100px;
+  padding-bottom: 80px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
