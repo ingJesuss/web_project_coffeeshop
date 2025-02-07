@@ -19,15 +19,6 @@
     line-height: 72px;
     letter-spacing: -1px;
   }
-  .span-accent {
-    font-family: "Noto Serif", "Times New Roman", serif;
-    font-style: italic;
-    font-weight: normal;
-    font-size: 58px;
-    line-height: 72px;
-    color: #2f80ed;
-  }
-  
   .header__description {
     margin-top: 28px;
     max-width: 683px;
@@ -72,7 +63,4 @@
     display: flex;
     align-items: flex-end;
   }
-  .span-adress {
-    display: flex;
-    margin-right: 0;
-  }
+  
