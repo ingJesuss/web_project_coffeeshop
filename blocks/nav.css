@@ -18,6 +18,7 @@
     padding: 0;
     column-gap: 20px;
     list-style-type: none;
+        
   }
   
   .nav__link {
@@ -27,6 +28,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
+    color: #000000;
   }
   .nav__link:hover{
     color: #2f80ed;
